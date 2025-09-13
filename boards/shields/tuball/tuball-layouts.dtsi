@@ -3,6 +3,7 @@
 / {
     physical_layout0: physical_layout_0 {
         compatible = "zmk,physical-layout";
+        transform = <&default_transform>;
         display-name = "Base";
 
         keys  //                     w   h    x    y     rot    rx    ry
